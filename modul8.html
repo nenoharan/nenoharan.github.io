@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+
+<body>
+<!-- form 1 -->
+    <form action="aset/action.html" method="post">
+        <table>
+            <tr>
+                <td><label for="Nama">Nama</label></td>
+                <td><input type="text" id="Nama"></td>
+            </tr>
+            <tr>
+                <td><label for="Hobby">Hobby</label></td>
+                <td><input type="text" id="Hobby"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Kirim">
+                <input type="reset" value="Kosongkan">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+<!-- form 1 -->
+
+<!--  form 2-->
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="Nama Pemakai">Nama Pemakai</label>
+                </td>
+                <td>
+                    <input type="text" id="Nama Pemakai">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Password">Password</label>
+                </td>
+                <td><input type="Password" id="Password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Kosongkan">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+<!-- form 2 -->
+
+<!-- form 3 -->
+    <form>
+        <table>
+            <tr>
+                <td>Buah yang kamu sukai:</td>
+                <td>
+                    <input type="Checkbox" id="Checkbox">
+                    <label for="Checkbox">Lokoat</label>
+                    <input type="Checkbox" id="Kujawas">
+                    <label for="Kujawas">Kujawas</label>
+                    <input type="Checkbox" id="Kusambi">
+                    <label for="Kusambi">Kusambi</label>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+<!-- form 3 -->
+
+<!-- form 4 -->
+    <form>
+        <table>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" id="Pria" name="jenis kelamin">
+                    <label for="Pria">Pria</label>
+                    <input type="radio" id="wanita" name="jenis kelamin">
+                    <label for="wanita">Wanita</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Agama</td>
+                <td>
+                    <input type="radio" id="islam" name="agama">
+                        <label for="islam">Islam</label>
+                    <input type="radio" id="kristen" name="agama">
+                        <label for="kristen">Kristen</label>
+                    <input type="radio" id="Katholik" name="agama">
+                        <label for="Katholik">katholik</label>
+                    <input type="radio" id="Budha" name="agama">
+                        <label for="Budha">Budha</label>
+                    <input type="radio" id="Hindu" name="agama">
+                        <label for="Hindu">Hindu</label>
+                    <input type="radio" id="lain-lain" name="agama">
+                     <label for="lain-lain">lain-lain</label>               
+                 </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+<!-- form 4 -->
+
+<!-- form 5 -->
+    <form>
+        <table>
+            <tr>
+                <td><label for="komentar">Komentar Anda:</label></td>
+                <td><textarea name="komentar" id="komentar" cols="40" rows="5">Masukan Komentar</textarea></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+<!-- form 5 -->
+
+<!-- form 6 -->
+    <form>
+        <table>
+            <tr>
+                <td><label for="Matakuliah">Matakuliah yang anda sukai:</label></td>
+                <td><select name="Matakuliah">
+                    <option value="Kalkulus">Kalkulus
+                        <option value="Sistem Digital">Sistem Digital
+                            <option value="Pemogaraman Web">Pemograman Web
+                                <option value="Algoritma dan Pemograman">Algoritma dan Pemograman
+                                    <option value="Lain-lain">Lain-lain</option>
+                                </option>
+                            </option>
+                        </option>
+                    </option>
+                </select></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+<!-- form 6 -->
+
+<!-- form 7 -->
+    <form>
+        <table>
+            <tr>
+                <td><label for="klik">Coba klick tombol sebelumnya:</label></td>
+                <td><input type="button" value="Ke sebelumnya" onclick="self.history.back();"></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+<!-- form 7 -->
+
+<!-- form 8 --> 
+        <form>
+            <center>
+            <table border="2">
+                <tr>
+                    <td>
+                        <label for="masukan">Nama :</label>
+                    </td>
+                    <td>
+                        <input type="text" maxlength="25" id="masukan"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Usia (tahun)</label>
+                    </td>                     
+                    <td>
+                        <input type="radio" name="usia" id="kurang dari">
+                            <label for="kurang dari">Kurang dari 20</label> <br>
+                        <input type="radio" name="usia" id="s/d">
+                            <label for="s/d">20 s/d 40</label> <br>
+                        <input type="radio" name="usia" id="lebih dari">
+                            <label for="lebih dari">Lebih Dari 40</label>
+                        </td>
+                    </tr>
+            </table>
+        </center>
+        </form>
+        <hr>
+<!-- form 8 -->
+</body>
+
+</html>
